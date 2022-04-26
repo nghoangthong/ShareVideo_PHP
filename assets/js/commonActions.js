@@ -19,5 +19,5 @@ $(document).ready(function() {
 });
 
 function notSignedIn() {
-    alert("You must be signed in to perform this action");
+    alert("Bạn cần phải đăng nhập trước khi thao tác");
 }
