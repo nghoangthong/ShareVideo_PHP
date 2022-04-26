@@ -59,18 +59,6 @@ INSERT INTO `categories` (`id`, `name`) VALUES
 -- Cấu trúc bảng cho bảng `comments`
 --
 
-CREATE TABLE `comments` (
-  `id` int(11) NOT NULL,
-  `postedBy` varchar(50) NOT NULL,
-  `videoId` int(11) NOT NULL,
-  `responseTo` int(11) NOT NULL,
-  `body` mediumtext NOT NULL,
-  `datePosted` datetime NOT NULL DEFAULT current_timestamp()
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-
---
--- Đang đổ dữ liệu cho bảng `comments`
---
 
 
 --
